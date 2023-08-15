@@ -61,21 +61,32 @@
       <h1 style="text-align: center">Welcome to Note Maker</h1>
 
       <div class="mb-3 container" style="border: 3px solid black; padding:10px">
-        <label for="exampleFormControlTextarea1" class="form-label">Create Note</label>
-        <textarea class="form-control" id="addTxt" rows="3" placeholder="type here"></textarea>
+        <label for="exampleFormControlTextarea1" class="form-label"><b>Create Note</b></label>
+        <textarea class="form-control" id="addTxt" rows="3" placeholder="Type Here"></textarea>
         <br>
         <button type="button" class="btn btn-primary" id="addBtn">Add Node</button>
       </div>
       <h1 style="text-align:center"><u>Your Notes</u></h1>
-      <div class="note"></div>
+      <div class="note container">
 
+        <div class="card" style="width: 18rem;">
+        
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Note</p>
+            <a href="#" class="btn btn-primary">Delete</a>
+          </div>
+        </div>
+
+      </div>
+
+      <script src="/js/app.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"
+      ></script>
     </body>
-    <script src="/js/app.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
    
   </html>
 </html>
