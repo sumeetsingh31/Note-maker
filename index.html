@@ -10,49 +10,26 @@
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
     crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/NOTE-MAKER/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     
     </head>
     <body>
-      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+      <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid nav1">
           <a class="navbar-brand" href="#">Note Maker</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-            </ul>
+          
             <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="search note"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success srch" type="submit">Search</button>
             </form>
-          </div>
+          
         </div>
       </nav>
       <h1 style="text-align: center">Welcome to Note Maker</h1>
 
       <div class="mb-3 container" style="border: 3px solid black; padding:10px">
         <label for="exampleFormControlTextarea1" class="form-label"><b>Create Note</b></label>
-        <textarea class="form-control" id="addTxt" rows="3" placeholder="Type Here"></textarea>
+        <textarea class="TxtA form-control" id="addTxt" rows="3" placeholder="Type Here"></textarea>
         <br>
         <button type="button" class="btn btn-primary" id="addBtn">Add Node</button>
       </div>
@@ -63,8 +40,10 @@
         
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
+            <div class="card-content">
             <p class="card-text">Note</p>
             <a href="#" class="btn btn-primary" id="dltBtn">Delete</a>
+          </div>
           </div>
         </div>
 
