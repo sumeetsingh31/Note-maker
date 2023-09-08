@@ -1,16 +1,9 @@
 
-body{
-    background-color: yellow;
-}
-.srch{
-    color: white;
-    border: 1px solid white;
-}
 
-.card-body{
-background-color: black;
-color: white;
+body{
+    background-color: yellow;  
 }
-.card-title{
+h1{
+    text-align: center;
     text-decoration: underline;
 }
