@@ -1,9 +1,8 @@
-
-
-body{
-    background-color: yellow;  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    text-align: center;
-    text-decoration: underline;
+body{
+    background-image:url('https://hbr.org/resources/images/article_assets/2015/05/MAY15_26_456701506.jpg');
 }
